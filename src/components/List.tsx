@@ -8,7 +8,6 @@ import { useEffect } from "react";
 import { loadAllServices } from "@/redux/sagas/sagasActions";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import Link from "next/link";
-import { Spinner } from "@chakra-ui/react";
 import LoadingSpinner from "@/components/loadingSpinner";
 
 export default function List() {
